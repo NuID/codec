@@ -1,0 +1,11 @@
+{:builds
+ {:browser
+  {:modules {:nuid_codec {:entries [nuid.codec]}},
+   :output-dir "target/browser",
+   :asset-path "target/browser",
+   :target :browser},
+  :node
+  {:output-to "target/node/nuid_codec.js",
+   :exports-var nuid.codec/exports,
+   :target :node-library}},
+ :deps {:aliases [:shadow]}}
