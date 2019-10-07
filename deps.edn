@@ -1,8 +1,12 @@
 {:deps
  {org.clojure/clojurescript {:mvn/version "1.10.520"},
   org.clojure/clojure {:mvn/version "1.10.1"},
-  nuid/transit {:local/root "/Users/nolan/dev/nuid/transit"},
-  nuid/base64 {:local/root "/Users/nolan/dev/nuid/base64"},
+  nuid/transit
+  {:git/url "https://github.com/nuid/transit.git",
+   :sha "91dfc0dac08934f010d73e93386b6652e30c2e79"},
+  nuid/base64
+  {:git/url "https://github.com/nuid/base64.git",
+   :sha "d6ab8b9a652627002df96781ed806999800e5817"},
   mvxcvi/multiformats {:mvn/version "0.2.0"},
   mvxcvi/clj-cbor {:mvn/version "0.7.2"}},
  :aliases
@@ -20,5 +24,7 @@
   :shadow {:extra-deps {thheller/shadow-cljs {:mvn/version "2.8.55"}}},
   :repl
   {:extra-deps
-   {nuid/deps {:local/root "/Users/nolan/dev/nuid/deps"}}}},
+   {nuid/deps
+    {:git/url "https://github.com/nuid/deps.git",
+     :sha "343a267df77b08124caf001c0a49916c4b2b7a8a"}}}},
  :paths ["src"]}
