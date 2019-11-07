@@ -6,7 +6,7 @@
    :sha "50ceb59277e2fc57800aeb67714054583f17eb7b"},
   nuid/base64
   {:git/url "https://github.com/nuid/base64.git",
-   :sha "6282194a235a3f759b4582a6281d3b628ae544f7"},
+   :sha "349f8a2ce9cf2f252f8107a697ed88f4b8080e58"},
   mvxcvi/multiformats {:mvn/version "0.2.0"},
   mvxcvi/clj-cbor {:mvn/version "0.7.2"}},
  :aliases
