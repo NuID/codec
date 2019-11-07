@@ -2,8 +2,9 @@
   (:require
    [nuid.transit :as transit]
    [nuid.base64 :as base64]
-   #?@(:clj  [[clojure.data.json :as json]
-              [clj-cbor.core :as cbor]])))
+   #?@(:clj
+       [[clojure.data.json :as json]
+        [clj-cbor.core :as cbor]])))
 
 (defmulti encode
   (fn
