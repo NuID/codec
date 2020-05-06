@@ -2,10 +2,10 @@
  {org.clojure/clojure {:mvn/version "1.10.1"},
   nuid/transit
   {:git/url "https://github.com/nuid/transit.git",
-   :sha "3dbe614672cb6396b60070ab3ef911919a44c4e8"},
+   :sha "a03d0d2d3b4f4e01b60013cbe3655258694a7d89"},
   nuid/base64
   {:git/url "https://github.com/nuid/base64.git",
-   :sha "ab441adf14861b0e4a51329190a6672fbf8d7226"},
+   :sha "59fa46ddc020dc11824e16e18ad639ac9e1ea252"},
   mvxcvi/multiformats {:mvn/version "0.2.1"},
   mvxcvi/clj-cbor {:mvn/version "1.0.0"}},
  :aliases
