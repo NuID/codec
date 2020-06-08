@@ -4,8 +4,7 @@
    [nuid.codec.proto :as proto]
    [nuid.codec.transit]
    #?@(:clj
-       [[nuid.codec.cbor]
-        [nuid.codec.multicodec]])))
+       [[nuid.codec.cbor]])))
 
 (def encode proto/encode)
 (def decode proto/decode)
