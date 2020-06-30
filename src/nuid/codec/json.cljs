@@ -9,5 +9,5 @@
                                     (:space opts))))
 
 (defmethod proto/decode "application/json"
-  ([_ json]      (js->clj (js/JSON.parse json)))
-  ([_ opts json] (js->clj (js/JSON.parse json (:reviver opts)))))
+  ([_ json]      (js->clj (js/JSON.parse json) :keywordize-keys true))
+  ([_ opts json] (js->clj (js/JSON.parse json (:reviver opts)) :keywordize-keys true)))
