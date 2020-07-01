@@ -1,12 +1,12 @@
 {:deps
  {org.clojure/clojure {:mvn/version "1.10.1"},
+  org.clojure/data.json {:mvn/version "0.2.7"},
   nuid/transit
   {:git/url "https://github.com/nuid/transit.git",
-   :sha "a03d0d2d3b4f4e01b60013cbe3655258694a7d89"},
+   :sha "6a03f7bed0bd95944720cdc2204de4bc4db20d29"},
   nuid/base64
   {:git/url "https://github.com/nuid/base64.git",
-   :sha "59fa46ddc020dc11824e16e18ad639ac9e1ea252"},
-  mvxcvi/multiformats {:mvn/version "0.2.1"},
+   :sha "e46986d141a014bfec9786a1f0824cedbe4b28d5"},
   mvxcvi/clj-cbor {:mvn/version "1.0.0"}},
  :aliases
  {:cljs
