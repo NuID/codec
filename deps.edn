@@ -3,13 +3,11 @@
   org.clojure/data.json {:mvn/version "0.2.7"},
   nuid/transit
   {:git/url "https://github.com/nuid/transit.git",
-   :sha "88debe0b8fb934d0514a54066a12c3a99142269f"},
+   :sha "b8458a9481df7bae7f417c2fb1910be60612026d"},
   nuid/base64
   {:git/url "https://github.com/nuid/base64.git",
-   :sha "bfcd083c49dad1137b7e3f41ae167e1ece4f3d7b"},
+   :sha "a381b5f63263e3e85f0d124fc15a8bd1651ea7fd"},
   mvxcvi/clj-cbor {:mvn/version "1.0.0"}},
  :aliases
- {:cljs
-  {:extra-deps
-   {thheller/shadow-cljs {:mvn/version "2.11.23"}}}},
+ {:cljs {:extra-deps {thheller/shadow-cljs {:mvn/version "2.11.23"}}}},
  :paths ["src"]}
